@@ -1,0 +1,71 @@
+    body {
+        background-image: url('img/weatherbackground.jpg');
+        background-size: cover;
+        height: 100vh;
+        background-position: center;
+        font-family: 'Arial', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+    }
+    
+    .title-container {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -210%);
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        color: rgb(0, 0, 0);
+        margin: o;
+    }
+
+    .app-title {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    .weather-container {
+        text-align: center;
+        padding: 25px;
+        border-radius: 15px;
+        box-shadow: 0 0 10px rgb(255, 255, 255);
+        background-color: #2a3841;
+        color: white;
+        margin-top: 50px;
+    }
+    
+    #weather-icon {
+        font-size: 4rem;
+        margin-bottom: 10px;
+        transition: transform 0.5s ease-in-out;
+    }
+    
+    #forecast-container {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 20px;
+    }
+    
+    .forecast-item {
+        text-align: center;
+        margin: 100px;
+    }
+
+    .forecast-item:not(:last-child) {
+        margin-right: 20px;
+    }
+    
+    .wi-thunderstorm { color: #004080; }
+    .wi-showers { color: #0066cc; }
+    .wi-rain { color: #0099ff; }
+    .wi-snow { color: #66ccff; }
+    .wi-mist { color: #b3e0ff; }
+    .wi-clear { color: #ffcc00; }
+    .wi-clouds { color: #b3b3b3; }
+    
+  
+    
