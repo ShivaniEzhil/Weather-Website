@@ -1,6 +1,6 @@
 const currentWeatherUrl = 'https://api.openweathermap.org/data/2.5/weather';
 const forecastUrl = 'https://api.openweathermap.org/data/2.5/forecast';
-const apiKey = 'a3daa13da142468a14acb40abcfe0e4c';
+const apiKey = 'YOUR API KEY';
 
 async function getWeather(city) {
     const currentWeatherResponse = await fetch(`${currentWeatherUrl}?q=${city}&appid=${apiKey}&units=metric`);
